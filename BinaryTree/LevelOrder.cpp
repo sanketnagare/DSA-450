@@ -19,7 +19,7 @@ class Solution
     //Function to return the level order traversal of a tree.
     vector<int> levelOrder(Node* node)
     {
-      //Your code here
+
       queue<Node*> q;
       vector<int> v;
       q.push(node);
